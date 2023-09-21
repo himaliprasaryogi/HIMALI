@@ -82,8 +82,15 @@ print('modern unit is:', kilogram,'kg', gram,'g')
 #
 #     a 3-digit code where each number is between 0 and 9.
 #     a 4-digit code where each number is between 1 and 6.
+'''
+combination_lock1=random.randint(0,9)
+# print(f'{random.randint(0,9):03d}')
+print((str(random.randint(0,9)))+(str(random.randint(0,9)))+(str(random.randint(0,9))))
+combination_lock2=random.randint(1,6)
+# print(f'{random.randint(1,6):04d}')
+print((str(random.randint(1,6)))+(str(random.randint(1,6)))+(str(random.randint(1,6))+(str(random.randint(1,6)))))
 
-
+'''
 
 
 
