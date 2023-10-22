@@ -18,6 +18,7 @@ while number <= 1000:
 # inputs a negative value. Then the program ends.
 '''
 inch_to_cm = 2.54
+
 while True:
     inches = float(input("enter a value in inches : "))
     if inches < 0:
@@ -25,6 +26,24 @@ while True:
         break
     centimeters = inches * inch_to_cm
     print(inches, 'inches is equal to' , centimeters,'centimeters')
+'''
+#Task 2
+'''
+print("Task#2")
+M = 0
+while M >= 0:
+    M = float(input("Enter Inches: "))
+    if M < 0:
+       
+        print("Program has Ended Due to Entering Negative Number.")
+
+        break
+    if M < 0:
+        print(f"{M}inches is equal to ",end="")
+        M = M * 2.54
+        print(f"{M} in centimeters")
+        print()
+print()
 '''
 # ex-3
 # Write a program that asks the user to enter numbers until they enter
@@ -55,6 +74,7 @@ if s != '':
 else:
     print('no numbers were given')
 '''
+
 # ex-4
 '''
 Write a game where the computer draws a random integer between 
